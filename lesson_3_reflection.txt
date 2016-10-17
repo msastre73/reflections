@@ -11,7 +11,16 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+BRANCH: Es una etiqueta que tiene los commit, las cuales generar un camino 
+rastreable de commits.
+CLONE: Es la accion de copiar un repository tal como está en un repository
+nuevo localmente (que después puede eventualmenste pushearse a GitHub). En
+este caso el remote es el origen del propietario del repository y para hacer
+cambios (a menos que se sea colaborador) se tiene que pushear con otro nombre
+de remote a un repository de mi usuario.
+FORK: Es la acción de clonar un repositorio alojado en GitHub de un usuario
+a un repositorio nuevo alojado en GitHub de tu usuario, sin la necesidad de 
+pasar por el local y siendo el origen el repositorio de GitHub en mi cuenta.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
